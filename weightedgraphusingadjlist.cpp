@@ -12,7 +12,7 @@ int n,m;
 cin>>n>>m;
 // declare an adjaceny matrix of size n x n
 vector<pair<int,int>>adj(n+1);
-//take edges as input
+//take edges and weights as input
 for(int i=0;i<m;++i)	
 {
 	int u,v;
